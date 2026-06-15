@@ -3,6 +3,7 @@
   "displayName": "Ouroboros VSC",
   "description": "Dev tools for the Ouroboros project.",
   "version": "0.0.1",
+  "icon": "icon.png",
   "publisher": "TKVSC-Team",
   "engines": {
     "vscode": "^1.74.0"
@@ -26,28 +27,28 @@
     "menus": {
       "explorer/context": [
         {
-          "command": "cppOutToIn.copyToIn",
+          "command": "ouroborosVSC.copyToIn",
           "when": "resourcePath =~ /CPP_OUT/ && !explorerResourceIsFolder",
           "group": "7_modification"
         }
       ],
       "editor/title/context": [
         {
-          "command": "cppOutToIn.copyToIn",
+          "command": "ouroborosVSC.copyToIn",
           "when": "resourcePath =~ /CPP_OUT/",
           "group": "1_modification"
         }
       ],
       "editor/context": [
         {
-          "command": "cppOutToIn.copyToIn",
+          "command": "ouroborosVSC.copyToIn",
           "when": "resourcePath =~ /CPP_OUT/",
           "group": "1_modification"
         }
       ],
       "commandPalette": [
         {
-          "command": "cppOutToIn.copyToIn",
+          "command": "ouroborosVSC.copyToIn",
           "when": "resourcePath =~ /CPP_OUT/"
         }
       ]
