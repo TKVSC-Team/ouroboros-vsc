@@ -10,12 +10,16 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TKVSC-Team/ouroboros-vsc"
+  },
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "cppOutToIn.copyToIn",
+        "command": "ouroborosVSC.copyToIn",
         "title": "Copy to CPP_IN"
       }
     ],
